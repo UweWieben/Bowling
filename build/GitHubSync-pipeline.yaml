@@ -17,7 +17,7 @@ steps:
     git config --global user.email "build@azuredevops.local"
     git config --global user.name "Azure DevOps Sync"
 
-    git remote add github https://github-sync:$(GITHUB_PAT)@github.com/UweWieben/Bowling.git
+    git remote add github https://$(GITHUB_PAT)@github.com/UweWieben/Bowling.git
 
     git push github \
       +refs/remotes/origin/*:refs/heads/* \
