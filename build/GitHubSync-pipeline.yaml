@@ -1,0 +1,25 @@
+trigger:
+  branches:
+    include:
+      - "*"
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+- group: GitHubSync
+
+steps:
+- checkout: self
+  fetchDepth: 0
+
+- script: |
+    git config --global user.email "build@azuredevops.local"
+    git config --global user.name "Azure DevOps Sync"
+
+    git remote add github https://github-sync:$(GITHUB_PAT)@github.com/UweWieben/Bowling.git
+
+    git push github \
+      +refs/remotes/origin/*:refs/heads/* \
+      +refs/tags/*:refs/tags/*
+  displayName: "Mirror Repository"
