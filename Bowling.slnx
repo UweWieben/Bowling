@@ -1,1 +1,19 @@
-<solution />
+<solution>
+  <Folder Name="/Tests/">
+    <Project Path="tests/Backend.Tests/Backend.Tests.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="0b9e1154-d7e4-47e7-8f19-a6a3d5d53480">
+      <Build Project="false" />
+    </Project>
+    <Project Path="tests/Console.Tests/Console.Tests.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="3d321d3a-9010-441c-ab79-251f7cbe589e">
+      <Build Project="false" />
+    </Project>
+  </Folder>
+  <Project Path="src/Backend/Backend.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="fde77f1e-714d-4dcf-8f64-8f1f6ce5b476">
+    <Build Project="false" />
+  </Project>
+  <Project Path="src/Console/Console.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="48e1671d-1d84-4d08-b749-6275173a543c">
+    <Build Project="false" />
+  </Project>
+  <Project Path="src/Shared/Shared.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="067da55a-e3b6-404b-866b-147d687aa94d">
+    <Build Project="false" />
+  </Project>
+</solution>
