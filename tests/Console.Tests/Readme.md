@@ -1,2 +1,1 @@
-# Bowling.Console.Tests 
-
+# Bowling.Console.Tests
