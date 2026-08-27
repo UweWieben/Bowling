@@ -1,0 +1,10 @@
+[project]
+name = "backend for Bowling"
+version = "0.0.1c"
+description = "API for Bowling Simulation"
+readme = "README.md"
+authors = [
+    { name = "Uwe Wieben", email = "mail@uwe-wieben.de" }
+]
+requires-python = ">=3.13"
+dependencies = []

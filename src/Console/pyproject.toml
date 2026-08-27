@@ -1,0 +1,10 @@
+[project]
+name = "Console frontend for Bowling"
+version = "0.0.1c"
+description = "Console UI for Bowling Simulation"
+readme = "README.md"
+authors = [
+    { name = "Uwe Wieben", email = "mail@uwe-wieben.de" }
+]
+requires-python = ">=3.13"
+dependencies = []

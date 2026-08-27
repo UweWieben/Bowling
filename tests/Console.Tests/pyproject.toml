@@ -1,0 +1,10 @@
+[project]
+name = "Console frontend tests"
+version = "0.0.1c"
+description = "Unit-, integration- and api-tests for bowling console frontend"
+readme = "README.md"
+authors = [
+    { name = "Uwe Wieben", email = "mail@uwe-wieben.de" }
+]
+requires-python = ">=3.13"
+dependencies = []

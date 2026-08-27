@@ -1,0 +1,10 @@
+[project]
+name = "shared library for bowling simulation"
+version = "0.0.1c"
+description = "Shared stuff for bowling project"
+readme = "README.md"
+authors = [
+    { name = "Uwe Wieben", email = "mail@uwe-wieben.de" }
+]
+requires-python = ">=3.13"
+dependencies = []
